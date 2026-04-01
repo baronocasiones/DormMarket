@@ -185,7 +185,7 @@ export const Card = ({
             uri: image || 'https://via.placeholder.com/300x180?text=Product',
           }}
           style={styles.image}
-          defaultSource={require('../../assets/placeholder.png')}
+          defaultSource={require('../../../assets/placeholder.png')}
         />
         {badge && (
           <View style={styles.badgeContainer}>

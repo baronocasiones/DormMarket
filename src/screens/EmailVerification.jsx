@@ -9,9 +9,9 @@ import {
   TextInput,
 } from 'react-native';
 import { colors, spacing, borderRadius, typography, shadows } from '../styles/theme';
-import Header from './ui/Header';
-import TextInputField from './ui/TextInputField';
-import Button from './ui/Button';
+import Header from '../components/ui/Header';
+import TextInputField from '../components/ui/TextInputField';
+import Button from '../components/ui/Button';
 
 const styles = StyleSheet.create({
   container: {

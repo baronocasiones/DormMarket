@@ -10,9 +10,9 @@ import {
   TextInput,
 } from 'react-native';
 import { colors, spacing, borderRadius, typography, shadows } from '../styles/theme';
-import Header from './ui/Header';
-import Avatar from './ui/Avatar';
-import BottomTabBar from './ui/BottomTabBar';
+import Header from '../components/ui/Header';
+import Avatar from '../components/ui/Avatar';
+import BottomTabBar from '../components/ui/BottomTabBar';
 
 const styles = StyleSheet.create({
   container: {

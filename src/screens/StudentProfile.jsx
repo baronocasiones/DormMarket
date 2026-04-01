@@ -9,13 +9,13 @@ import {
   Image,
 } from 'react-native';
 import { colors, spacing, borderRadius, typography, shadows } from '../styles/theme';
-import Header from './ui/Header';
-import Avatar from './ui/Avatar';
-import Badge from './ui/Badge';
-import Card from './ui/Card';
-import Button from './ui/Button';
-import Rating from './ui/Rating';
-import BottomTabBar from './ui/BottomTabBar';
+import Header from '../components/ui/Header';
+import Avatar from '../components/ui/Avatar';
+import Badge from '../components/ui/Badge';
+import Card from '../components/ui/Card';
+import Button from '../components/ui/Button';
+import Rating from '../components/ui/Rating';
+import BottomTabBar from '../components/ui/BottomTabBar';
 
 const styles = StyleSheet.create({
   container: {

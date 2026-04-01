@@ -8,7 +8,7 @@ import {
   TouchableOpacity,
 } from 'react-native';
 import { colors, spacing, borderRadius, typography, shadows } from '../styles/theme';
-import Button from './ui/Button';
+import Button from '../components/ui/Button';
 
 const styles = StyleSheet.create({
   container: {

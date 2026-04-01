@@ -10,11 +10,11 @@ import {
   Dimensions,
 } from 'react-native';
 import { colors, spacing, borderRadius, typography, shadows } from '../styles/theme';
-import Header from './ui/Header';
-import SearchBar from './ui/SearchBar';
-import CategoryChip from './ui/CategoryChip';
-import Card from './ui/Card';
-import BottomTabBar from './ui/BottomTabBar';
+import Header from '../components/ui/Header';
+import SearchBar from '../components/ui/SearchBar';
+import CategoryChip from '../components/ui/CategoryChip';
+import Card from '../components/ui/Card';
+import BottomTabBar from '../components/ui/BottomTabBar';
 
 const screenWidth = Dimensions.get('window').width;
 const CARD_WIDTH = (screenWidth - spacing[8] - spacing[4]) / 2;

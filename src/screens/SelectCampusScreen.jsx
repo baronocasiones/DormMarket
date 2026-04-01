@@ -9,9 +9,9 @@ import {
   FlatList,
 } from 'react-native';
 import { colors, spacing, borderRadius, typography, shadows } from '../styles/theme';
-import Header from './ui/Header';
-import SearchBar from './ui/SearchBar';
-import Button from './ui/Button';
+import Header from '../components/ui/Header';
+import SearchBar from '../components/ui/SearchBar';
+import Button from '../components/ui/Button';
 
 const styles = StyleSheet.create({
   container: {

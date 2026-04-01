@@ -1,5 +1,6 @@
 agents/**
 agents/
+AGENTS.md
 
 # Dependencies
 node_modules/
